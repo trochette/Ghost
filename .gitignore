@@ -60,7 +60,14 @@ CHANGELOG.md
 /core/test/functional/*.png
 /core/test/coverage
 
+<<<<<<< 5239b755b82dd0ee096323309420b9df1f119e1a
 /config.js
+=======
+#config.js
+/core/client/config.js
+!/core/client/app/mirage/config.js
+!/core/client/app/services/config.js
+>>>>>>> Editing config
 
 # Built asset files
 /core/built
