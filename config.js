@@ -11,7 +11,7 @@ config = {
     // When running Ghost in the wild, use the production environment.
     // Configure your URL and mail settings here
     production: {
-        url: 'http://minutesdepot-blogue.herokuapp.com',
+        url: 'http://blogue.minutesdepot.com',
         fileStorage: false,
         mail: {  
             transport: 'SMTP',
