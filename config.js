@@ -15,12 +15,11 @@ config = {
         fileStorage: false,
         mail: {  
             transport: 'SMTP',
-            host: 'smtp.mandrillapp.com',
             options: {
-                service: 'Mandrill',
+                service: 'Mailgun',
                 auth: {
-                    user: process.env.MANDRILL_USERNAME,
-                    pass: process.env.MANDRILL_APIKEY
+                    user: process.env.MAILGUN_SMTP_LOGIN,
+                    pass: process.env.MAILGUN_SMTP_PASSWORD
                 }
             }
         },
